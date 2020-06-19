@@ -46,3 +46,6 @@ function resolveName(dllName, name) {
   return addr
 }
 ```
+## Publications
+
+* [Using Frida For Windows Reverse Engineering](https://darungrim.com/research/2020-06-17-using-frida-for-windows-reverse-engineering.html)
