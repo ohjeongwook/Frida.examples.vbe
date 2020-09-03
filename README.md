@@ -1,4 +1,5 @@
 # Frida.examples.vbe
+
 Frida example to trace VBA CreateObject calls and some string deobfuscations calls. You need latest Frida 12.9.8 for improved symbol lookup features I added recently.
 
 It uses improved DebugSymbol.getFunctionByName to perform symbol lookup. The following Javascript code shows a good example of using Module.findExportByName and DebugSymbol.getFunctionByName with name and module caches to expedite symbol lookup in general.
@@ -46,6 +47,7 @@ function resolveName(dllName, name) {
   return addr
 }
 ```
+
 ## Publications
 
 * [Using Frida For Windows Reverse Engineering](https://darungrim.com/research/2020-06-17-using-frida-for-windows-reverse-engineering.html)
